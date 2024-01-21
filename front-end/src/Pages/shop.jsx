@@ -1,23 +1,18 @@
 import React from 'react'
-import hero from '../Components/Hero/hero'
+import { Hero } from '../Components/Hero/Hero'
+import { Popular } from '../Components/Popular/Popular'
+import { Offers } from '../Components/Offers/Offers'
+import { NewCollections } from '../Components/NewCollections/NewCollections'
+import { Newsletter } from '../Components/Newsletter/Newsletter'
 
-export const shop = () => {
+export const Shop = () => {
   return (
     <div>
-       <h1>
-        Iski maa ki chuth
-       </h1>
-       <ul>
-        <li/>
-        <li>Fuck you</li>
-        <li>Fuck you</li>
-        <li>Fuck you</li>
-        <li>Fuck you</li>
-        <li>Fuck you</li>
-        <li>Fuck you</li>
-        <li>Fuck you</li>
-        <li>Fuck you</li>
-       </ul>
+      <Hero/>
+      <Popular/>
+      <Offers/>
+      <NewCollections/>
+      <Newsletter></Newsletter>
     </div>
   )
 }
